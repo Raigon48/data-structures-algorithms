@@ -40,3 +40,8 @@ export default function mergeSort(arr: number[]): number[] {
     recursion(arr, 0, arr.length-1);
     return arr;
 }
+
+
+// Divide and Conquer, Multiple Recursion
+// Time complexity = O(nlog(n))
+// Space Complexity = O(n)
